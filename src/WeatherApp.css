@@ -1,0 +1,10 @@
+.WeatherApp {
+      text-align: center;
+      min-height: 100vh;
+      background: linear-gradient(180deg,
+                  #d1e8f6 0%,
+                  #f5fbff 70%,
+                  #ffffff 100%);
+
+      padding: 15px 10px;
+}

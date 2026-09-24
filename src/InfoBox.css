@@ -1,0 +1,38 @@
+.InfoBox {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+}
+.weather-card {
+      transition: 0.3s ease;
+      width: 345px; 
+      border-radius: 12px;
+      border: 1px solid rgb(208, 212, 237);
+      background-color: #f0f9ff !important;
+      border: 2px solid #c5e8f5;
+}
+.weather-card:hover {
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transform: translateY(-1px);
+}
+.weather-img {
+      height: 190px;
+}
+
+.weather-details p {
+      margin: 14px 0;
+}
+@media (max-width: 500px) {
+      .weather-card {
+            max-width: 100%;
+      }
+      .weather-img {
+            height: 150px;
+      }
+      .weather-title {
+            font-size: 22px !important;
+      }
+      .weather-details {
+            font-size: 14px !important;
+      }
+}
